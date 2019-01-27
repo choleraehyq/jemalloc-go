@@ -5,7 +5,7 @@ import (
 	"testing"
 	"unsafe"
 
-	jemalloc "github.com/spinlock/jemalloc-go"
+	jemalloc "github.com/choleraehyq/jemalloc-go"
 )
 
 func toBytes(ptr unsafe.Pointer, size int) []byte {
